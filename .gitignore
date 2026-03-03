@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+config.ini
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Output files produced by the scraper
+*.xlsx
+*.csv
+scraper_output*.json
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
