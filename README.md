@@ -4,6 +4,17 @@ A Python-based web scraper that collects product data (names, prices, colours, a
 
 ---
 
+## Target Site
+
+| Field | Details |
+|---|---|
+| **Site** | Nike Philippines |
+| **URL** | https://www.nike.com/ph/w/mens-shoes-nik1zy7ok |
+| **Category** | Men's Shoes |
+| **Data collected** | Product name, category, colour, price, original price, stock status, product URL |
+
+---
+
 ## Files
 
 | File | Description |
