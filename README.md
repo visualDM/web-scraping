@@ -4,14 +4,28 @@ A Python-based web scraper that collects product data (names, prices, colours, a
 
 ---
 
-## Target Site
+## Sample Output
 
-| Field | Details |
-|---|---|
-| **Site** | Nike Philippines |
-| **URL** | https://www.nike.com/ph/w/mens-shoes-nik1zy7ok |
-| **Category** | Men's Shoes |
-| **Data collected** | Product name, category, colour, price, original price, stock status, product URL |
+When the scraper runs successfully you will see console output like this:
+
+```
+Step 1: Hunting for API...
+Step 2: Starting crawl loop...
+  Scraping page 1...
+    Found 24 items.
+  Scraping page 2...
+    Found 24 items.
+  ...
+✨ SUCCESS! Crawled 8 pages.
+✨ Found 186 unique products. Saved to output.xlsx
+```
+
+The resulting Excel file contains one row per product with these columns:
+
+| Name | Category | Color | Price | Original | Status | URL |
+|---|---|---|---|---|---|---|
+| Sample Product 1 | Shoes | White (White/Black) | ₱6,295 | ₱6,295 | In Stock | https://… |
+| Sample Product 2 | Shoes | Black (Black/White) | ₱5,495 | ₱5,495 | In Stock | https://… |
 
 ---
 
