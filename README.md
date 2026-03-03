@@ -1,4 +1,4 @@
-# Nike Data Scraper
+Data Scraper
 
 A Python-based web scraper that collects product data (names, prices, colours, and URLs) from the Nike Philippines storefront using Playwright to capture live API endpoints and `requests` to paginate through them.
 
